@@ -79,7 +79,7 @@ Die gespeicherten Messdaten werden mit matplotlib visualisiert.
 
 Datei:
 
-    plot_timeseries.py
+    plot_iFillLevel1.py
 
 Für die Visualisierung wird eine Messgröße ausgewählt und als Zeitreihe dargestellt.
 
