@@ -85,13 +85,13 @@ Für die Visualisierung wird eine Messgröße ausgewählt und als Zeitreihe darg
 
 Verwendete Messgröße:
 
-    weight
+    iFillLevel1
 
 Das grundsätzliche Empfangen, Speichern und Plotten der MQTT-Messwerte hat funktioniert. Es konnten jedoch keine fachlich aussagekräftigen Messgrößen dargestellt werden. Der Grund dafür lag nicht an der Python-Datenpipeline, sondern an unserem SPS-Programm, da die relevanten Messwerte nicht zuverlässig beziehungsweise nicht in einer geeigneten Form veröffentlicht wurden.
 
 Der erzeugte Plot dient daher hauptsächlich als Funktionsnachweis der Datenpipeline und nicht als inhaltlich aussagekräftige Prozessauswertung.
 
-![Zeitreihenplot Gewicht](data/plot_weight.png)
+![Zeitreihenplot Gewicht](data/plot_iFillLevel1.png)
 
 ## 8. Fazit
 
