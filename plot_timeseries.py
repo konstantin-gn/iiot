@@ -24,7 +24,7 @@ def main():
     base_topic = config["base_topic"]
 
     # Hier wird festgelegt, welche Messgröße geplottet werden soll.
-    measurement_name = "iFillLevel1"  # Ändern nach Bedarf
+    measurement_name = "rPcntFillLevel"  # Ändern nach Bedarf
 
     # Vollständiges MQTT-Topic der gewünschten Messgröße
     topic = f"{base_topic}/{group}/{measurement_name}"
