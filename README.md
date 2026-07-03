@@ -91,7 +91,7 @@ Das grundsätzliche Empfangen, Speichern und Plotten der MQTT-Messwerte hat funk
 
 Der erzeugte Plot dient daher hauptsächlich als Funktionsnachweis der Datenpipeline und nicht als inhaltlich aussagekräftige Prozessauswertung.
 
-![Zeitreihenplot Gewicht](data/plot_weight.png)
+![Zeitreihenplot Gewicht](data/plot_iFillLevel1.png)
 
 ## 8. Fazit
 
