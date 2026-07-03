@@ -1,0 +1,6 @@
+paho-mqtt>=2.0.0
+tinydb>=4.8.0
+matplotlib
+pandas
+scikit-learn
+numpy
