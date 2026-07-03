@@ -79,19 +79,20 @@ Die gespeicherten Messdaten werden mit matplotlib visualisiert.
 
 Datei:
 
-    plot_iFillLevel1.py
+    plot_rPcntFillLevel.py
 
 Für die Visualisierung wird eine Messgröße ausgewählt und als Zeitreihe dargestellt.
 
-Verwendete Messgröße:
+Verwendete Messgröße ist rPcntFillLevel, sie stellt den gesamt, abgfüllte Menge da:
 
-    iFillLevel1
+    rPcntFillLevel
 
-Das grundsätzliche Empfangen, Speichern und Plotten der MQTT-Messwerte hat funktioniert. Es konnten jedoch keine fachlich aussagekräftigen Messgrößen dargestellt werden. Der Grund dafür lag nicht an der Python-Datenpipeline, sondern an unserem SPS-Programm, da die relevanten Messwerte nicht zuverlässig beziehungsweise nicht in einer geeigneten Form veröffentlicht wurden.
+Das grundsätzliche Empfangen, Speichern und Plotten der MQTT-Messwerte hat funktioniert. 
+Allerdings wurde die Messgröße über einen kürzeren Zeitraum als gefordert dargestellt.
 
 Der erzeugte Plot dient daher hauptsächlich als Funktionsnachweis der Datenpipeline und nicht als inhaltlich aussagekräftige Prozessauswertung.
 
-![Zeitreihenplot Gewicht](data/plot_iFillLevel1.png)
+![Zeitreihenplot Gewicht](data/plot_rPcntFillLevel.png)
 
 ## 8. Fazit
 
@@ -99,7 +100,7 @@ Der Python-Teil der IIoT-Datenpipeline wurde erfolgreich umgesetzt. MQTT-Daten k
 
 Zusätzlich ist das Python-System über eine `config.json` konfigurierbar. Darin werden unter anderem MQTT-Broker, Port, Benutzername, Passwort, Gruppe, Basistopic sowie die Speicherpfade für CSV und TinyDB festgelegt.
 
-Das Senden von Messgrößen über MQTT sowie das Speichern und Plotten mit Python hat prinzipiell funktioniert. Allerdings konnten keine fachlich aussagekräftigen Messgrößen dargestellt werden, da die relevanten Werte aus dem SPS-Programm nicht korrekt beziehungsweise nicht zuverlässig bereitgestellt wurden.
+Das Senden von Messgrößen über MQTT sowie das Speichern und Plotten mit Python hat prinzipiell funktioniert. 
 
 ## 9. KI-Nutzung
 
